@@ -1,0 +1,4 @@
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\bin\Release\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\bin\Release\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\obj\Release\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\obj\Release\AuxiliarKinect.pdb
