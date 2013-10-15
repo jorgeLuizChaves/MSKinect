@@ -1,0 +1,1 @@
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\bin\Debug\HelloKinect.exe.config
