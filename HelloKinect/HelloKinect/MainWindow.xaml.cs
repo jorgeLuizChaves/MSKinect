@@ -21,6 +21,7 @@ namespace HelloKinect
     {
 
         bool MaoDireitaAcimaCabeca;
+        private const int MAX_SKELETON = 6;
 
         public MainWindow()
         {
@@ -31,8 +32,51 @@ namespace HelloKinect
         private void inicializarKinect()
         {
             int anguloInicial = 0;
-            KinectSensor kinect=  InicializadorKinect.InicializarPrimeiroSensor(anguloInicial);
+            KinectSensor kinect = InicializadorKinect.InicializarPrimeiroSensor(anguloInicial);
             kinect.SkeletonStream.Enable();
+            kinect.SkeletonFrameReady += kinect_SkeletonEvent;
+        }
+
+        private void kinect_SkeletonEvent(object sender, SkeletonFrameReadyEventArgs e)
+        {
+           using(SkeletonFrame quadroAtual =  e.OpenSkeletonFrame())
+           {
+               if (quadroAtual != null)
+               {
+                   executarRegraMaoDireitaEmcimaDaCabeca(quadroAtual);
+               }
+           }
+        }
+
+        private void executarRegraMaoDireitaEmcimaDaCabeca(SkeletonFrame quadroAtual)
+        {
+            Skeleton[] esqueletos = new Skeleton[MAX_SKELETON];
+            quadroAtual.CopySkeletonDataTo(esqueletos);
+            Skeleton usuario = esqueletos.FirstOrDefault(esqueleto =>
+                                                            esqueleto.TrackingState == SkeletonTrackingState.Tracked);
+
+            if (HasUsuario(usuario))
+            {
+                Joint maoDireita = usuario.Joints[JointType.HandRight];
+                Joint cabeca = usuario.Joints[JointType.Head];
+                bool novoTesteMaoDireitaAcimaCabeca = IsMaoDireitaAcimaDaCabeca(maoDireita.Position.Y, cabeca.Position.Y);
+                if (MaoDireitaAcimaCabeca != novoTesteMaoDireitaAcimaCabeca)
+                {
+                    MaoDireitaAcimaCabeca = novoTesteMaoDireitaAcimaCabeca;
+                    if (MaoDireitaAcimaCabeca)
+                        MessageBox.Show("A mão direita está acima da cabeça!");
+                }
+            }
+        }
+
+        private bool HasUsuario(Skeleton usuario)
+        {
+            return usuario != null;
+        }
+
+        public bool IsMaoDireitaAcimaDaCabeca(float maoDireitaPosicaoY, float cabecaPosicaoY)
+        {
+            return (maoDireitaPosicaoY > cabecaPosicaoY);
         }
     }
 }

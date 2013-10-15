@@ -1,1 +1,15 @@
 C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\bin\Debug\HelloKinect.exe.config
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\HelloKinect.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\MainWindow.baml
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\MainWindow.g.cs
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\App.g.cs
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\HelloKinect_MarkupCompile.cache
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\HelloKinect.g.resources
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\HelloKinect.Properties.Resources.resources
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\HelloKinect.csproj.GenerateResource.Cache
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\bin\Debug\HelloKinect.exe
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\bin\Debug\HelloKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\bin\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\bin\Debug\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\HelloKinect.exe
+C:\Users\Jorge\workspace\MSKinect\HelloKinect\HelloKinect\obj\Debug\HelloKinect.pdb
