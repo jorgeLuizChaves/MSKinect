@@ -1,0 +1,3 @@
+C:\Users\Jorge\workspace\MSKinect\Chapter3\Acelerometro\Chapter3\bin\Debug\Chapter3.exe.config
+C:\Users\Jorge\workspace\MSKinect\Chapter3\Acelerometro\Chapter3\obj\Debug\Chapter3.exe
+C:\Users\Jorge\workspace\MSKinect\Chapter3\Acelerometro\Chapter3\obj\Debug\Chapter3.pdb
