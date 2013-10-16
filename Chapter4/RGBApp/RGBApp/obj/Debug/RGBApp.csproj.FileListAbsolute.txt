@@ -1,0 +1,15 @@
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\bin\Debug\RGBApp.exe.config
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\RGBApp.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\App.g.cs
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\RGBApp_MarkupCompile.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\bin\Debug\RGBApp.exe
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\bin\Debug\RGBApp.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\bin\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\bin\Debug\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\MainWindow.baml
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\MainWindow.g.cs
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\RGBApp.g.resources
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\RGBApp.Properties.Resources.resources
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\RGBApp.csproj.GenerateResource.Cache
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\RGBApp.exe
+C:\Users\Jorge\workspace\MSKinect\Chapter4\RGBApp\RGBApp\obj\Debug\RGBApp.pdb

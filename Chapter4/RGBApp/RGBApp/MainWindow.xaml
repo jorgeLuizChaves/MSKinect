@@ -1,0 +1,15 @@
+﻿<Window x:Class="RGBApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Button Content="Tirar Foto" Grid.Row="1"
+                HorizontalAlignment="Left" Width="70" 
+                Margin="10,10" Click="bater_foto" />
+        <Image Name="imagemKinect" />
+    </Grid>
+</Window>
