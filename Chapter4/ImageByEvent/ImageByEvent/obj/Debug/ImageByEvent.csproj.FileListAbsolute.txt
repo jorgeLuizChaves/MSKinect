@@ -1,0 +1,15 @@
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\bin\Debug\ImageByEvent.exe.config
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\bin\Debug\ImageByEvent.exe
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\bin\Debug\ImageByEvent.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\bin\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\bin\Debug\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\ImageByEvent.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\MainWindow.baml
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\MainWindow.g.cs
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\App.g.cs
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\ImageByEvent_MarkupCompile.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\ImageByEvent.g.resources
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\ImageByEvent.Properties.Resources.resources
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\ImageByEvent.csproj.GenerateResource.Cache
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\ImageByEvent.exe
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEvent\ImageByEvent\obj\Debug\ImageByEvent.pdb

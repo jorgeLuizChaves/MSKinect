@@ -1,0 +1,3 @@
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\bin\Debug\ImageByEvent.exe.config
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\obj\Debug\ImageByEvent.exe
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\obj\Debug\ImageByEvent.pdb
