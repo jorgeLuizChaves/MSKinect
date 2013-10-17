@@ -30,11 +30,18 @@ namespace ImageByEvent
             InicializarKinect();
         }
 
+        public void Drag_Completed(object sender, System.Windows.Controls.Primitives.DragCompletedEventArgs evt)
+        {
+            Kinect.ElevationAngle = Convert.ToInt32(slider.Value);
+            eixoValor.Content = Kinect.ElevationAngle;
+
+        }
+
         private void InicializarKinect()
         {
             Kinect = InicializadorKinect.InicializarPrimeiroSensor(0);
             Kinect.Start();
-            Kinect.ColorStream.Enable();
+            Kinect.ColorStream.Enable(ColorImageFormat.RgbResolution640x480Fps30);
             Kinect.ColorFrameReady += Kinect_ColorFrameReady;
         }
 
