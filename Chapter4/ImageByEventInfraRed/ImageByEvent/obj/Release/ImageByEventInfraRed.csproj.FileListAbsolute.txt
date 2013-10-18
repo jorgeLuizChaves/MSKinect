@@ -12,3 +12,5 @@ C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\obj
 C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\obj\Release\ImageByEventInfraRed.csproj.GenerateResource.Cache
 C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\obj\Release\ImageByEvent.exe
 C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\obj\Release\ImageByEvent.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\obj\Release\ImageByEventInfraRed.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter4\ImageByEventInfraRed\ImageByEvent\bin\Release\Microsoft.Kinect.Toolkit.dll

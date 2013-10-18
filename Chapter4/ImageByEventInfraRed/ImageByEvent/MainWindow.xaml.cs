@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Kinect;
 using AuxiliarKinect.FuncoesBasicas;
+using Microsoft.Kinect.Toolkit;
 
 namespace ImageByEvent
 {
@@ -27,19 +28,27 @@ namespace ImageByEvent
         public MainWindow()
         {
             InitializeComponent();
-            InicializarKinect();
+            InicializarInicializador();
         }
 
         public void Drag_Completed(object sender, System.Windows.Controls.Primitives.DragCompletedEventArgs evt)
         {
             Kinect.ElevationAngle = Convert.ToInt32(slider.Value);
             eixoValor.Content = Kinect.ElevationAngle;
-
         }
 
-        private void InicializarKinect()
+        private void InicializarInicializador()
         {
-            Kinect = InicializadorKinect.InicializarPrimeiroSensor(0);
+            InicializadorKinect inicializador = new InicializadorKinect();
+            inicializador.MetodoInicializadorKinect += InicializarKinect;
+            
+            kinectSensorChooser.KinectSensorChooser = inicializador.SeletorKinect;
+            InicializarKinect(inicializador.SeletorKinect.Kinect);
+        }
+
+        private void InicializarKinect(KinectSensor kinect)
+        {
+            Kinect = kinect;
             Kinect.Start();
             Kinect.ColorStream.Enable(ColorImageFormat.InfraredResolution640x480Fps30);
             Kinect.ColorFrameReady += Kinect_ColorFrameReady;
