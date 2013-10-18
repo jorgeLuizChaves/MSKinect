@@ -42,8 +42,75 @@ namespace ImageByEvent
             Kinect = InicializadorKinect.InicializarPrimeiroSensor(0);
             Kinect.Start();
             Kinect.DepthStream.Enable();
+            Kinect.ColorStream.Enable();
             Kinect.SkeletonStream.Enable();
-            Kinect.DepthFrameReady +=Kinect_DepthFrameReady;
+            Kinect.AllFramesReady +=Kinect_AllFramesReady;
+        }
+
+        private void Kinect_AllFramesReady(object sender, AllFramesReadyEventArgs allFrameEvent)
+        {
+            byte[] imagem = ObterImagemSensorRGB(allFrameEvent.OpenColorImageFrame());
+
+            if (chkEscalaCinza.IsChecked.HasValue && chkEscalaCinza.IsChecked.Value)
+                ReconhecerDistancia(allFrameEvent.OpenDepthImageFrame(), imagem, 2000);
+            if (imagem != null)
+                imageKinect.Source =
+                BitmapSource.Create(Kinect.ColorStream.FrameWidth,
+                Kinect.ColorStream.FrameHeight,
+                96, 96, PixelFormats.Bgr32, null,
+                imagem,
+                Kinect.ColorStream.FrameBytesPerPixel
+                * Kinect.ColorStream.FrameWidth);
+
+        }
+
+        private byte[] ObterImagemSensorRGB(ColorImageFrame quadro)
+        {
+            if (quadro == null)
+                return null;
+
+            using (quadro)
+            {
+                byte[] bytesImagem = new byte[quadro.PixelDataLength];
+                quadro.CopyPixelDataTo(bytesImagem);
+                return bytesImagem;
+            }
+
+        }
+
+        private void ReconhecerDistancia(DepthImageFrame quadro, byte[] bytesImagem, int maxDistancia)
+        {
+            if (quadro == null || bytesImagem == null)
+                return;
+            
+                using (quadro)
+                {
+                    DepthImagePixel[] imagemProfundidade = new DepthImagePixel[quadro.PixelDataLength];
+                    quadro.CopyDepthImagePixelDataTo(imagemProfundidade);
+
+                    DepthImagePoint[] pontosImagemProfundidade = new DepthImagePoint[640 * 480];
+
+                    Kinect.CoordinateMapper
+                            .MapColorFrameToDepthFrame(Kinect.ColorStream.Format,
+                                                       Kinect.DepthStream.Format, imagemProfundidade,
+                                                       pontosImagemProfundidade);
+
+                    for (int i = 0; i < pontosImagemProfundidade.Length; i++)
+                    {
+                        var point = pontosImagemProfundidade[i];
+                        if (point.Depth < maxDistancia && KinectSensor.IsKnownPoint(point))
+                        {
+                            var pixelDataIndex = i * 4;
+                            byte maiorValorCor =
+                            Math.Max(bytesImagem[pixelDataIndex],
+                            Math.Max(bytesImagem[pixelDataIndex + 1],
+                            bytesImagem[pixelDataIndex + 2]));
+                            bytesImagem[pixelDataIndex] = maiorValorCor;
+                            bytesImagem[pixelDataIndex + 1] = maiorValorCor;
+                            bytesImagem[pixelDataIndex + 2] = maiorValorCor;
+                        }
+                    }
+                }
         }
 
         private void Kinect_DepthFrameReady(object sender, DepthImageFrameReadyEventArgs depthImageEvent)
