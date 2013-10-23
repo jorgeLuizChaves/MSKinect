@@ -1,0 +1,9 @@
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\bin\Release\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\bin\Release\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\obj\Release\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\obj\Release\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\bin\Release\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\bin\Release\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\bin\Release\Microsoft.Kinect.Toolkit.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\obj\Release\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\obj\Release\AuxiliarKinect.pdb
