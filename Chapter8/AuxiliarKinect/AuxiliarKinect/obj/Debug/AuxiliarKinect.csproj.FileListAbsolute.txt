@@ -1,0 +1,17 @@
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\bin\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\bin\Debug\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\bin\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\bin\Debug\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter4\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter7\AuxiliarKinect\AuxiliarKinect\bin\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter7\AuxiliarKinect\AuxiliarKinect\bin\Debug\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter7\AuxiliarKinect\AuxiliarKinect\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter7\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter7\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter7\AuxiliarKinect\AuxiliarKinect\obj\Debug\AuxiliarKinect.pdb
