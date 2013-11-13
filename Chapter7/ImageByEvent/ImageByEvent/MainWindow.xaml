@@ -1,0 +1,28 @@
+﻿<Window x:Class="ImageByEvent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:k="http://schemas.microsoft.com/kinect/2013"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition  Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*"/>
+            <RowDefinition  Height="50"/>
+        </Grid.RowDefinitions>
+        <Canvas Name="canvasKinect" Grid.Row="1" />
+        <Slider Name="slider" Grid.Column="1" Grid.Row="1" Orientation="Vertical"
+                Height="{Binding ElementName=imageKinect, Path=ActualHeight}"
+                HorizontalAlignment="Center" Maximum="27" Minimum="-27" Thumb.DragCompleted="Drag_Completed" />
+        <Label Name="eixoValor" Grid.Column="1" Grid.Row="2" Content="0" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+        
+        <k:KinectSensorChooserUI Name="kinectChooserUI" />
+        <StackPanel Grid.Row="2">
+            <CheckBox Name="chkEscalaCinza" Content="Monocromático" />
+            <CheckBox Name="chkEsqueleto" Content="Esqueleto"/>
+        </StackPanel>
+    </Grid>
+</Window>

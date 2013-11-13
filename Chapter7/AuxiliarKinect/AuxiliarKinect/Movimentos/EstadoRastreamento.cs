@@ -8,6 +8,8 @@ namespace AuxiliarKinect.Movimentos
 {
     public enum EstadoRastreamento
     {
-        IDENTIFICADO, EM_EXECUCAO, NAO_IDENTIFICADO
+        IDENTIFICADO, 
+        EM_EXECUCAO, 
+        NAO_IDENTIFICADO
     }
 }

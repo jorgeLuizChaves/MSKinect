@@ -35,7 +35,11 @@
       <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Assemblies\Microsoft.Kinect.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.DomainServices.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceModel.DomainServices.Server, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,6 +54,7 @@
     <Compile Include="Movimentos\IRastreador.cs" />
     <Compile Include="Movimentos\Movimento.cs" />
     <Compile Include="Movimentos\Pose.cs" />
+    <Compile Include="Movimentos\Poses\PosePausa.cs" />
     <Compile Include="Movimentos\Poses\PoseT.cs" />
     <Compile Include="Movimentos\Rastreador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
