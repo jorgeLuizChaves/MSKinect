@@ -1,0 +1,16 @@
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\bin\Release\ImageByEvent.exe.config
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\bin\Release\ImageByEvent.exe
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\bin\Release\ImageByEvent.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\bin\Release\AuxiliarKinect.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\bin\Release\Microsoft.Kinect.Toolkit.dll
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\bin\Release\AuxiliarKinect.pdb
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\ImageByEvent.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\MainWindow.baml
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\MainWindow.g.cs
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\App.g.cs
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\ImageByEvent_MarkupCompile.cache
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\ImageByEvent.g.resources
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\ImageByEvent.Properties.Resources.resources
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\ImageByEvent.csproj.GenerateResource.Cache
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\ImageByEvent.exe
+C:\Users\Jorge\workspace\MSKinect\Chapter7\ImageByEvent\ImageByEvent\obj\Release\ImageByEvent.pdb
